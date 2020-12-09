@@ -1,3 +1,5 @@
+/*body headers and horizontal rules*/
+
 body {
   margin: 0;
   text-align: center;
@@ -17,6 +19,10 @@ h2 {
   color: silver;
 }
 
+h2:hover {
+  color: orange;
+}
+
 h3 {
   font-family: 'Orbitron', sans-serif;
 }
@@ -31,6 +37,8 @@ hr {
   background-color: #5c6e91;
 }
 
+/*top container*/
+
 .top-container {
   width: auto;
   background-color: #583d72;
@@ -44,12 +52,20 @@ hr {
   margin: 0 auto 60px auto;
 }
 
+.name:hover {
+  color: silver;
+}
+
 .developer {
   width: 100%;
   font-size: 1.5625rem;
   font-family: 'Orbitron', sans-serif;
   margin: 0 auto;
   color: orange;
+}
+
+.developer:hover {
+  color: silver;
 }
 
 .asteroid-one {
@@ -84,6 +100,8 @@ hr {
   position: relative;
 }
 
+/*middle container*/
+
 .middle-container {
   width: auto;
   background-color: #5c6e91;
@@ -92,7 +110,12 @@ hr {
 .profile-pic {
   width: 10%;
   height: 10%;
-  padding-top: 20px;
+  padding-top: 70px;
+}
+
+.intro-text {
+  margin: 50px auto;
+  width: 30%;
 }
 
 .webdev {
@@ -101,10 +124,20 @@ hr {
   border-radius: 50%;
 }
 
+.webdev-text {
+  margin: 50px auto;
+  width: 40%;
+}
+
 .digidesign {
   width: 10%;
   height: 10%;
   border-radius: 50%;
+}
+
+.digidesign-text {
+  margin: 50px auto;
+  width: 40%;
 }
 
 .musicprod {
@@ -113,8 +146,21 @@ hr {
   border-radius: 50%;
 }
 
+.musicprod-text {
+  margin: 50px auto;
+  width: 40%;
+}
+
+.contact-me {
+  padding: 0 0 70px 0;
+}
+
+.btn-gap {
+  padding: 0 0 50px 0;
+}
+
 .btn {
-  font-family: 'Roboto', sans-serif;
+  color: black;
   font-size: 1rem;
   padding: 10px 25px;
   border-radius: 16px;
@@ -129,8 +175,41 @@ hr {
   background-color: orange;
 }
 
+/*bottom container*/
+
 .bottom-container {
   width: auto;
-  background-color: #5c6e91;
+  background-color: #583d72;
+  padding: 20px 0 5px 0;
+}
+
+.footer-link {
+  color: orange;
+  font-size: 1rem;
+  padding: 0 25px 0 25px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: silver;
+}
+
+.copyright {
+  color: orange;
+  font-size: 0.8rem;
   padding-top: 20px;
+}
+
+.copyright:hover {
+  color: silver;
+}
+
+.image-credits {
+  color: orange;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.image-credits:hover {
+  color: silver;
 }
