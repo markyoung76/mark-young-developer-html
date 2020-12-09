@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Orbitron', sans-serif;
+  color: orange;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  color: silver;
+}
+
+h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+hr {
+  margin: 80px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: orange;
+  border-width: 8px;
+  width: 5%;
+  background-color: #5c6e91;
+}
+
+.top-container {
+  width: auto;
+  background-color: #583d72;
+  margin: 0;
+}
+
+.name {
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 0;
+  margin: 0 auto 60px auto;
+}
+
+.developer {
+  width: 100%;
+  font-size: 1.5625rem;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0 auto;
+  color: orange;
+}
+
+.asteroid-one {
+  width: 10%;
+  position: relative;
+  right: 20%;
+  margin: 0;
+}
+
+.asteroid-two {
+  width: 10%;
+  position: relative;
+  left: 24%;
+  margin: 0;
+}
+
+.ufo {
+  width: 30%;
+  position: absolute;
+  left: 35%;
+}
+
+.cute-astronaut {
+  width: 8%;
+  position: relative;
+  right: 5%;
+  top: 75px;
+}
+
+.alien-planet {
+  width: 100%;
+  position: relative;
+}
+
+.middle-container {
+  width: auto;
+  background-color: #5c6e91;
+}
+
+.profile-pic {
+  width: 10%;
+  height: 10%;
+  padding-top: 20px;
+}
+
+.webdev {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.digidesign {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.musicprod {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 16px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+.bottom-container {
+  width: auto;
+  background-color: #5c6e91;
+  padding-top: 20px;
+}
