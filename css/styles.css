@@ -98,6 +98,7 @@ hr {
 .alien-planet {
   width: 100%;
   position: relative;
+  top: 3px;
 }
 
 /*middle container*/
@@ -151,6 +152,10 @@ hr {
   width: 40%;
 }
 
+.projects {
+  padding: 0 0 5px 0;
+}
+
 .contact-me {
   padding: 0 0 70px 0;
 }
@@ -161,9 +166,9 @@ hr {
 
 .btn {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 10px 25px;
-  border-radius: 16px;
+  border-radius: 20px;
   border-width: thin;
   border-color: silver;
   background-color: silver;
@@ -207,9 +212,24 @@ hr {
 .image-credits {
   color: orange;
   font-size: 1rem;
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .image-credits:hover {
   color: silver;
+}
+
+.top {
+  color: black;
+  font-size: 0.8rem;
+  padding: 2px 15px;
+  border-radius: 18px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  text-decoration: none;
+}
+
+.top:hover {
+  background-color: orange;
 }
