@@ -47,6 +47,7 @@ hr {
 
 .name {
   width: 100%;
+  font-weight: 600;
   padding-top: 10px;
   margin-top: 0;
   margin: 0 auto 60px auto;
@@ -78,27 +79,35 @@ hr {
 .asteroid-two {
   width: 10%;
   position: relative;
-  left: 24%;
-  margin: 0;
+  left: 45.2%;
+  margin-bottom: 20%;
 }
 
 .ufo {
   width: 30%;
-  position: absolute;
-  left: 35%;
+  position: relative;
+  left: 5%;
 }
 
 .cute-astronaut {
   width: 8%;
   position: relative;
-  right: 5%;
-  top: 75px;
+  right: 14%;
+  margin: 0 0 14.1% 0;
+}
+
+.funny-alien {
+  width: 12%;
+  position: relative;
+  z-index: 1;
+  right: 48%;
+  margin: 0 0 -1.5% 0;
 }
 
 .alien-planet {
   width: 100%;
   position: relative;
-  top: 3px;
+  margin: -20% auto -1% auto;
 }
 
 /*middle container*/
@@ -111,7 +120,7 @@ hr {
 .profile-pic {
   width: 10%;
   height: 10%;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 .intro-text {
@@ -127,7 +136,7 @@ hr {
 
 .webdev-text {
   margin: 50px auto;
-  width: 40%;
+  width: 45%;
 }
 
 .digidesign {
@@ -138,7 +147,7 @@ hr {
 
 .digidesign-text {
   margin: 50px auto;
-  width: 40%;
+  width: 45%;
 }
 
 .musicprod {
@@ -149,7 +158,7 @@ hr {
 
 .musicprod-text {
   margin: 50px auto;
-  width: 40%;
+  width: 45%;
 }
 
 .projects {
@@ -219,7 +228,7 @@ hr {
   color: silver;
 }
 
-.top {
+.buttontop {
   color: black;
   font-size: 0.8rem;
   padding: 2px 15px;
@@ -230,6 +239,6 @@ hr {
   text-decoration: none;
 }
 
-.top:hover {
+.buttontop:hover {
   background-color: orange;
 }
