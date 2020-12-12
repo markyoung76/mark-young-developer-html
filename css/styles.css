@@ -1,5 +1,9 @@
 /*body headers and horizontal rules*/
 
+html {
+  scroll-behavior: smooth; /* be careful using this as it may be an outdated option - it did however operate as desired? */
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -42,7 +46,7 @@ hr {
 .top-container {
   width: auto;
   background-color: #583d72;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .name {
@@ -107,7 +111,24 @@ hr {
 .alien-planet {
   width: 100%;
   position: relative;
-  margin: -20% auto -1% auto;
+  margin: -20% auto -1.2% auto;
+}
+
+.buttonmiddle {
+  color: black;
+  font-size: 0.5rem;
+  position: relative;
+  z-index: 1;
+  right: 0;
+  bottom: 80px;
+  padding: 1.2px 14px;
+  border-radius: 18px;
+  background-color: #583d72;
+  text-decoration: none;
+}
+
+.buttonmiddle:hover {
+  background-color: silver;
 }
 
 /*middle container*/
@@ -120,12 +141,12 @@ hr {
 .profile-pic {
   width: 10%;
   height: 10%;
-  padding-top: 80px;
+  padding-top: 65px;
 }
 
 .intro-text {
   margin: 50px auto;
-  width: 30%;
+  width: 45%;
 }
 
 .webdev {
