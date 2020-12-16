@@ -1,4 +1,4 @@
-/*body headers and horizontal rules*/
+/* body headers, paragraphs and horizontal rules */
 
 html {
   scroll-behavior: smooth; /* be careful using this as it may be an outdated option - it did however operate as desired? */
@@ -32,6 +32,11 @@ h3 {
   color: silver;
 }
 
+p {
+  font-size: 1rem;
+  color: #1d072f; /* originally black */
+}
+
 hr {
   margin: 80px auto 80px auto;
   border-style: none;
@@ -41,7 +46,7 @@ hr {
   width: 5%;
 }
 
-/*top container*/
+/* top container */
 
 .top-container {
   width: auto;
@@ -114,13 +119,15 @@ hr {
   margin: -20% auto -1.2% auto;
 }
 
+/* scroll to middle of page button */
+
 .buttonmiddle {
   color: black;
   font-size: 0.5rem;
   position: relative;
   z-index: 1;
   bottom: 80px;
-  padding: 1.2px 14px;
+  padding: 2px 14px; /* originally 1.2px 14px */
   border-radius: 18px;
   background-color: #32327c;
   text-decoration: none;
@@ -130,16 +137,11 @@ hr {
   background-color: silver;
 }
 
-/*middle container*/
+/* middle container */
 
 .middle-container {
   width: auto;
   background-color: #32327c;
-}
-
-.skills {
-  margin: 0 auto;
-  padding-top: 2%;
 }
 
 .profile-pic {
@@ -151,6 +153,20 @@ hr {
 .intro-text {
   margin: 50px auto;
   width: 45%;
+}
+
+.skills {
+  margin: 0 auto;
+}
+
+.skills-numbered {
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.projects-page-header {
+  margin: 0 auto;
+  padding-top: 2%;
 }
 
 .webdev {
@@ -198,6 +214,88 @@ hr {
   padding: 0 0 50px 0;
 }
 
+/* view more buttons */
+
+.btn-view-more {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 102px;
+  margin: 2% auto 3.5% auto;
+}
+
+.btn-view-more:hover {
+  background-color: orange;
+}
+
+.btn-view-more-2 {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 102px;
+  margin: 2% auto 0 auto;
+}
+
+.btn-view-more-2:hover {
+  background-color: orange;
+}
+
+.btn-view-more-3 {
+  color: black;
+  font-size: 1.2rem; /* originally 0.9rem */
+  padding: 10px 25px; /* originally 6px 1px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 102px;
+  margin: 2% auto -2% auto; /* originally 2% auto 0 auto */
+}
+
+.btn-view-more-3:hover {
+  background-color: orange;
+}
+
+/* contact me button */
+
+.btn-contact {
+  color: black;
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background-color: orange;
+}
+
+/* page navigation headers */
+
 .go-to-home {
   display: inline-block;
   margin: 0 auto 65px auto;
@@ -218,35 +316,7 @@ hr {
   margin: -32.5% auto 10% 41%;
 }
 
-/* .next-skill {
-  padding: 0 0 0 0;
-}
-
-.previous-skill {
-  padding: 0 0 0 0;
-} */
-
-/*buttons*/
-
-.btn-view-more {
-  color: black;
-  font-size: 1.2rem;
-  padding: 10px 25px;
-  border-radius: 20px;
-  border-width: thin;
-  border-color: silver;
-  background-color: silver;
-  flex: 1;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  width: 102px;
-  margin: 2% auto 3% auto;
-}
-
-.btn-view-more:hover {
-  background-color: orange;
-}
+/* page navigation buttons */
 
 .btn-home {
   color: black;
@@ -266,7 +336,7 @@ hr {
   background-color: orange;
 }
 
-.btn-contact {
+.btn-previous {
   color: black;
   font-size: 1.2rem;
   padding: 10px 25px;
@@ -276,9 +346,11 @@ hr {
   background-color: silver;
   flex: 1;
   text-decoration: none;
+  position: relative;
+  margin: 0 auto;
 }
 
-.btn-contact:hover {
+.btn-previous:hover {
   background-color: orange;
 }
 
@@ -301,25 +373,7 @@ hr {
   background-color: orange;
 }
 
-.btn-previous {
-  color: black;
-  font-size: 1.2rem;
-  padding: 10px 25px;
-  border-radius: 20px;
-  border-width: thin;
-  border-color: silver;
-  background-color: silver;
-  flex: 1;
-  text-decoration: none;
-  position: relative;
-  margin: 0 auto;
-}
-
-.btn-previous:hover {
-  background-color: orange;
-}
-
-/*bottom container*/
+/* bottom container */
 
 .bottom-container {
   width: auto;
@@ -357,6 +411,8 @@ hr {
 .image-credits:hover {
   color: silver;
 }
+
+/* scroll to top of page button */
 
 .buttontop {
   color: black;
