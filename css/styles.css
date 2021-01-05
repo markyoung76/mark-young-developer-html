@@ -303,12 +303,12 @@ hr {
 
 .home {
   display: flex;
-  margin: 0 auto 10% 3%;
+  margin: 0 auto 10% 3.3%;
 }
 
 .next {
   display: flex;
-  margin: -32% auto 0 76%;
+  margin: -32.5% auto 0 75.5%;
 }
 
 .prev {
@@ -321,7 +321,7 @@ hr {
 .btn-home {
   color: black;
   font-size: 1.2rem;
-  padding: 10px 25px;
+  padding: 10px 14px;
   border-radius: 20px;
   border-width: thin;
   border-color: silver;
@@ -338,8 +338,8 @@ hr {
 
 .btn-previous {
   color: black;
-  font-size: 1.2rem;
-  padding: 10px 25px;
+  font-size: 1.18rem;
+  padding: 10px 15.8px;
   border-radius: 20px;
   border-width: thin;
   border-color: silver;
@@ -356,8 +356,8 @@ hr {
 
 .btn-next {
   color: black;
-  font-size: 1.2rem;
-  padding: 10px 24px;
+  font-size: 1.18rem;
+  padding: 10px 15.5px;
   border-radius: 20px;
   border-width: thin;
   border-color: silver;
@@ -366,7 +366,7 @@ hr {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  margin: 4.1% auto 0 69%;
+  margin: 4.9% auto 0 70%;
 }
 
 .btn-next:hover {
@@ -416,8 +416,8 @@ hr {
 
 .buttontop {
   color: black;
-  font-size: 0.8rem;
-  padding: 2px 15px;
+  font-size: 0.9rem;
+  padding: 1px 15px;
   border-radius: 18px;
   border-width: thin;
   border-color: silver;
