@@ -144,10 +144,173 @@ hr {
   background-color: #32327c;
 }
 
+.navbar {
+  position: fixed;
+  top: 2%;
+  left: 1.1%;
+}
+
+/* youngocreate brand logo */
+
+.youngocreate-brand-logo {
+  width: 5%;
+  display: inline-block;
+  position: absolute;
+  margin: 0.9% auto -3.5% 44%;
+}
+
+/* nav-bar page buttons */
+
+/* intro button */
+
+.btn-intro {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 1.1% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 1.1% 90% 0.2% auto */
+}
+
+.btn-intro:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
+/* blog button */
+
+.btn-blog {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
+}
+
+.btn-blog:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
+/* courses button */
+
+.btn-courses {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
+}
+
+.btn-courses:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
+/* audio button */
+
+.btn-audio {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
+}
+
+.btn-audio:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
+/* video button */
+
+.btn-video {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
+}
+
+.btn-video:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
+/* misc button */
+
+.btn-misc {
+  color: black;
+  font-size: 0.9rem; /* originally 1.2rem */
+  padding: 6px 1px; /* originally 10px 25px */
+  border-radius: 20px;
+  border-width: thin;
+  border-color: silver;
+  background-color: silver;
+  flex: 1;
+  text-decoration: none;
+  display: inline-grid;
+  text-align: center;
+  width: 102px;
+  margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
+}
+
+.btn-misc:hover {
+  background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+
 .profile-pic {
   width: 10%;
   height: 10%;
   padding-top: 65px;
+  position: relative;
+  margin: 0.05% auto 0 auto; /* originally -10.4% auto 0 auto prior to opting for a fixed navbar */
 }
 
 .intro-text {
@@ -165,7 +328,12 @@ hr {
 }
 
 .projects-page-header {
-  margin: 0 auto;
+  margin: -0.05% auto 0 auto; /* originally -10.5% auto 0 auto prior to opting for a fixed navbar */
+  padding-top: 2%;
+}
+
+.blog-page-header {
+  margin: -0.05% auto 0 auto; /* originally -10.5% auto 0 auto prior to opting for a fixed navbar */
   padding-top: 2%;
 }
 
@@ -202,6 +370,19 @@ hr {
   width: 45%;
 }
 
+.project-link {
+  color: #1d072f;
+}
+
+.project-link:hover {
+  color: silver;
+}
+
+.blog-text {
+  margin: 50px auto;
+  width: 45%;
+}
+
 .projects {
   padding: 0 0 5px 0;
 }
@@ -234,6 +415,8 @@ hr {
 
 .btn-view-more:hover {
   background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
 }
 
 .btn-view-more-2 {
@@ -254,6 +437,8 @@ hr {
 
 .btn-view-more-2:hover {
   background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
 }
 
 .btn-view-more-3 {
@@ -274,6 +459,8 @@ hr {
 
 .btn-view-more-3:hover {
   background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
 }
 
 /* contact me button */
@@ -288,10 +475,16 @@ hr {
   background-color: silver;
   flex: 1;
   text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 102px;
+  margin: -0.5% auto -2% auto;
 }
 
 .btn-contact:hover {
   background-color: orange;
+  transform-origin: center;
+  transform: scale(1.04);
 }
 
 /* page navigation headers */
@@ -322,7 +515,7 @@ hr {
   color: black;
   font-size: 1.2rem;
   padding: 10px 14px;
-  border-radius: 20px;
+  border-radius: 1.625rem;
   border-width: thin;
   border-color: silver;
   background-color: silver;
@@ -336,11 +529,16 @@ hr {
   background-color: orange;
 }
 
+.fa-home:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+}
+
 .btn-previous {
   color: black;
   font-size: 1.18rem;
   padding: 10px 15.8px;
-  border-radius: 20px;
+  border-radius: 1.625rem;
   border-width: thin;
   border-color: silver;
   background-color: silver;
@@ -354,11 +552,16 @@ hr {
   background-color: orange;
 }
 
+.fa-chevron-left:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+}
+
 .btn-next {
   color: black;
   font-size: 1.18rem;
   padding: 10px 15.5px;
-  border-radius: 20px;
+  border-radius: 1.625rem;
   border-width: thin;
   border-color: silver;
   background-color: silver;
@@ -371,6 +574,11 @@ hr {
 
 .btn-next:hover {
   background-color: orange;
+}
+
+.fa-chevron-right:hover {
+  transform-origin: center;
+  transform: scale(1.15);
 }
 
 /* bottom container */
@@ -390,6 +598,16 @@ hr {
 
 .footer-link:hover {
   color: silver;
+}
+
+.fa-linkedin:hover {
+  transform-origin: center;
+  transform: scale(1.2);
+}
+
+.fa-user-circle:hover {
+  transform-origin: center;
+  transform: scale(1.15);
 }
 
 .copyright {
