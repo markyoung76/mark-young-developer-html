@@ -209,9 +209,9 @@ hr {
   transform: scale(1.04);
 }
 
-/* courses button */
+/* academics button */
 
-.btn-courses {
+.btn-academics {
   color: black;
   font-size: 0.9rem; /* originally 1.2rem */
   padding: 6px 1px; /* originally 10px 25px */
@@ -227,7 +227,7 @@ hr {
   margin: 0.2% 90% 8% auto; /* originally 1.2% 1% 0 1% - and prior to being fixed 0.2% 90% 0.2% auto */
 }
 
-.btn-courses:hover {
+.btn-academics:hover {
   background-color: orange;
   transform-origin: center;
   transform: scale(1.04);
@@ -322,7 +322,7 @@ hr {
   margin: 0 auto;
 }
 
-.skills-numbered {
+.skills-page-header {
   margin: 0 auto;
   padding-top: 2%;
 }
